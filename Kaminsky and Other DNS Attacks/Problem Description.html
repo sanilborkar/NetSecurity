@@ -1,0 +1,126 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Assignment 3</title>
+  </head>
+  <body>
+
+    <h1>Assignment 3</h1>
+
+    <h2>Goal</h2>
+    <p>
+    The goal of the third assignment is to familiarize students
+    with attacks on the Domain Name System (DNS). This is an assignment for
+    <b>individuals</b> - no group work or collaboration allowed. Violations
+    of the UF Honor code will be reported to the Office of Student Integrity
+    Immediately, and students will fail the course.
+    </p>
+
+    <h2>Description</h2>
+    <p>
+    <b>Due:</b> October 13 via Canvas <i>by</i> 5pm.<br>
+    <b>Points:</b> 100
+    </p>
+
+    <p>
+    In this assignment, students will complete a series of excercises 
+designed to show several ways that DNS cache poisoning attacks can be 
+accomplished.  
+    <br>
+    A PDF describing the exact steps students must follow can be found 
+    <a href="http://www.cise.ufl.edu/class/cnt5410fa14/hw/DNS.pdf">here</a>.
+    <br>
+    A VM image with all of the necessary tools can be found <a href="http://www.cis.syr.edu/%7Ewedu/seed/lab_env.html">here</a>.
+    </p>
+
+    <h2>Grading</h2>
+    <p>
+    The submission for this assignment will be a report detailing the steps taken to achieve the goals 
+    for each of the four attacks outlined in the assignment.  For each of the four attacks, the report 
+    must provide the following information:
+    </p>
+    
+    <h3>HOSTS file attack (10 points)</h3>
+    <p>
+    </p><li>Describe the exact steps you took to alter the the IP address that was resolved for a given host.
+    </li><li>Provide screen shots, commands executed, and command output to explain what took place.
+    </li><li>Explain how a real-world attacker could leverage this sort of attack.
+    </li><li>Discuss whether you feel this is a viable attack in the real world.  What factors contribute to your answer?
+    <p></p>
+
+    <h3>Host-Level Response Spoofing (20 points)</h3>
+    <p>
+    </p></li><li>Describe the exact steps you took to alter the the IP 
+address that was resolved for a given host.  Be sure to provide evidence
+ that shows that the host did, indeed, resolve an incorrect IP address. 
+ This should come in the form of packet captures, command line results, 
+etc.
+    </li><li>Provide screen shots, commands executed, and command output to explain what took place.
+    </li><li>Explain how a real-world attacker could leverage this sort of attack.
+    </li><li>Discuss whether you feel this is a viable attack in the 
+real world.  What limitations about this attack contribute to your 
+answer?
+    <p></p>
+
+    <h3>Server-Level Response Spoofing (20 points)</h3>
+    <p>
+    </p></li><li>Describe the exact steps you took to alter the the IP 
+address that was resolved for a given host.  Be sure to provide evidence
+ that shows that the host did, indeed, resolve an incorrect IP address. 
+ This should come in the form of packet captures, command line results, 
+etc.
+    </li><li>Provide screen shots, commands executed, and command output to explain what took place.
+    </li><li>Explain how a real-world attacker could leverage this sort of attack.
+    </li><li>Discuss whether you feel this is a viable attack in the 
+real world.  What limitations about this attack contribute to your 
+answer?
+    <p></p>
+
+    <h3>Kaminsky Attack (50 points)</h3>
+    <p>
+    </p></li><li>Describe the exact steps you took to alter the the IP 
+address that was resolved for a given host.  Be sure to provide evidence
+ that shows that the host did, indeed, resolve an incorrect IP address. 
+ This should come in the form of packet captures, command line results, 
+etc.
+    </li><li>Provide screen shots, commands executed, and command output to explain what took place.
+    </li><li>Describe, in plain English, how the attack tool you wrote for this portion of the assignment is structured and functions.
+    </li><li>How successful was your attack tool?  Did you have to run 
+it several times?  Why?  What could you do to increase its level of 
+success?
+    </li><li><b>Describe, in detail, the steps you took to prevent any 
+packets associated with this attack from reaching the Internet.  Failure
+ to provide a sufficient explanation will result in 0 points awarded for
+ this portion of the report.</b>
+    </li><li>Explain how a real-world attacker could leverage this sort of attack.
+    </li><li>Discuss whether you feel this is a viable attack in the real world.
+    <p></p>
+
+    <h2>Submission Instructions</h2>
+    <p>
+    </p></li><li>Reports must be written in LaTeX, and submitted to 
+Canvas in PDF format.  Failure to comply with this requirement will 
+result in 0 points awarded for the assignment.
+    </li><li>Source code for the Kaminsky attack tool must be tarred and 
+    g-zipped into a tarball and submitted to Canvas.  Please remember to 
+    include any payload files assosiated with your tool.  Your tool must 
+    build on the SEED Unbuntu VMWare image by simply executing an install 
+    script like the one included with the pacgen source.  Please remember 
+    to include your install.sh in the tarball.
+    <p></p>
+   
+    <h2>Tips</h2>
+    <p>
+    </p></li><li>The fourth portion of the excercise is <b>much more difficult</b> than the first three portions.  Budget your time accordingly.
+    </li><li>Remember to explain the steps you took to ensure your 
+Kaminsky Attack tool did not leak packets onto the Internet.  Failure to
+ provide a sufficient explanation will result in 0 points awarded for 
+this portion of the report.
+    </li><li>Students may find that the VM downloaded from the SEED site
+ has difficulty connecting to the Internet.  If you need access to the 
+Internet for your lab setup to work (except for the fourth portion), you
+ can make the image connect by setting the network to NAT mode.
+    <p></p>
+    
+  
+
+</li>
+</body></html>

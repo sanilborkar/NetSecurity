@@ -1,0 +1,92 @@
+No.     Time                       Source                Destination           Protocol Length Info
+      9 2014-10-12 20:52:52.762307 192.168.56.102        192.168.56.103        DNS      96     Standard query A x-6102069.dnsphishing.com
+
+Frame 9: 96 bytes on wire (768 bits), 96 bytes captured (768 bits)
+    Arrival Time: Oct 12, 2014 20:52:52.762307000 PDT
+    Epoch Time: 1413172372.762307000 seconds
+    [Time delta from previous captured frame: 0.003359000 seconds]
+    [Time delta from previous displayed frame: 0.003359000 seconds]
+    [Time since reference or first frame: 0.009177000 seconds]
+    Frame Number: 9
+    Frame Length: 96 bytes (768 bits)
+    Capture Length: 96 bytes (768 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CadmusCo_7b:1e:e5 (08:00:27:7b:1e:e5), Dst: CadmusCo_32:5b:06 (08:00:27:32:5b:06)
+    Destination: CadmusCo_32:5b:06 (08:00:27:32:5b:06)
+        Address: CadmusCo_32:5b:06 (08:00:27:32:5b:06)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: CadmusCo_7b:1e:e5 (08:00:27:7b:1e:e5)
+        Address: CadmusCo_7b:1e:e5 (08:00:27:7b:1e:e5)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.56.102 (192.168.56.102), Dst: 192.168.56.103 (192.168.56.103)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 82
+    Identification: 0xd184 (53636)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xb6f8 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.56.102 (192.168.56.102)
+    Destination: 192.168.56.103 (192.168.56.103)
+User Datagram Protocol, Src Port: 33333 (33333), Dst Port: domain (53)
+    Source port: 33333 (33333)
+    Destination port: domain (53)
+    Length: 62
+    Checksum: 0xd596 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+Domain Name System (query)
+    [Response In: 97536]
+    Transaction ID: 0xb47a
+    Flags: 0x0110 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...1 .... = Non-authenticated data: Acceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 1
+    Queries
+        x-6102069.dnsphishing.com: type A, class IN
+            Name: x-6102069.dnsphishing.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+    Additional records
+        <Root>: type OPT
+            Name: <Root>
+            Type: OPT (EDNS0 option)
+            UDP payload size: 4096
+            Higher bits in extended RCODE: 0x0
+            EDNS0 version: 0
+            Z: 0x8000
+                Bit 0 (DO bit): 1 (Accepts DNSSEC security RRs)
+                Bits 1-15: 0x0 (reserved)
+            Data length: 0
+
+0000  08 00 27 32 5b 06 08 00 27 7b 1e e5 08 00 45 00   ..'2[...'{....E.
+0010  00 52 d1 84 00 00 40 11 b6 f8 c0 a8 38 66 c0 a8   .R....@.....8f..
+0020  38 67 82 35 00 35 00 3e d5 96 b4 7a 01 10 00 01   8g.5.5.>...z....
+0030  00 00 00 00 00 01 09 78 2d 36 31 30 32 30 36 39   .......x-6102069
+0040  0b 64 6e 73 70 68 69 73 68 69 6e 67 03 63 6f 6d   .dnsphishing.com
+0050  00 00 01 00 01 00 00 29 10 00 00 00 80 00 00 00   .......)........
+

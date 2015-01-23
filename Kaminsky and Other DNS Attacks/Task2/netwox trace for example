@@ -1,0 +1,68 @@
+Command 105 --hostname "www.example.com" --hostnameip 1.2.3.... :
+DNS_question____________________________________________________.
+| id=19918  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=1 ra=0  quest=1  answer=0  auth=0  add=0         |
+| www.example.com. A                                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=19918  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=1 ra=1  quest=1  answer=1  auth=1  add=1         |
+| www.example.com. A                                            |
+| www.example.com. A 60 1.2.3.4                                 |
+| ns.example.com. NS 60 ns.example.com.                         |
+| ns.example.com. A 60 1.2.3.5                                  |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=59494  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=1 ra=0  quest=1  answer=0  auth=0  add=0         |
+| www.example.com. A                                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=59494  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=1 ra=1  quest=1  answer=1  auth=1  add=1         |
+| www.example.com. A                                            |
+| www.example.com. A 60 1.2.3.4                                 |
+| ns.example.com. NS 60 ns.example.com.                         |
+| ns.example.com. A 60 1.2.3.5                                  |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=38573  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=1 ra=0  quest=1  answer=0  auth=0  add=0         |
+| www.example.com. A                                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=38573  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=1 ra=1  quest=1  answer=1  auth=1  add=1         |
+| www.example.com. A                                            |
+| www.example.com. A 60 1.2.3.4                                 |
+| ns.example.com. NS 60 ns.example.com.                         |
+| ns.example.com. A 60 1.2.3.5                                  |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=12414  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=1 ra=0  quest=1  answer=0  auth=0  add=0         |
+| www.example.com. A                                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=12414  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=1 ra=1  quest=1  answer=1  auth=1  add=1         |
+| www.example.com. A                                            |
+| www.example.com. A 60 1.2.3.4                                 |
+| ns.example.com. NS 60 ns.example.com.                         |
+| ns.example.com. A 60 1.2.3.5                                  |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=11354  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=1 ra=0  quest=1  answer=0  auth=0  add=0         |
+| www.example.com. A                                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=11354  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=1 ra=1  quest=1  answer=1  auth=1  add=1         |
+| www.example.com. A                                            |
+| www.example.com. A 60 1.2.3.4                                 |
+| ns.example.com. NS 60 ns.example.com.                         |
+| ns.example.com. A 60 1.2.3.5                                  |
+|_______________________________________________________________|
+
+

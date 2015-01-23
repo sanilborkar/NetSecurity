@@ -1,0 +1,36 @@
+Command 105 --hostname "www.go-rts.com" --hostnameip 1.2.3.4... :
+DNS_question____________________________________________________.
+| id=2318   rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=0 ra=0  quest=1  answer=0  auth=0  add=1         |
+| www.go-rts.com. A                                             |
+| . OPT UDPpl=4096 errcode=0 v=0 ...                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=2318   rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=0 ra=0  quest=1  answer=1  auth=1  add=1         |
+| www.go-rts.com. A                                             |
+| www.go-rts.com. A 60 1.2.3.4                                  |
+| ns.go-rts.com. NS 60 ns.go-rts.com.                           |
+| ns.go-rts.com. A 60 1.2.3.5                                   |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=11649  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=0 ra=0  quest=1  answer=0  auth=0  add=1         |
+| go-rts.com. UNKNOWN(43)                                       |
+| . OPT UDPpl=4096 errcode=0 v=0 ...                            |
+|_______________________________________________________________|
+DNS_question____________________________________________________.
+| id=53996  rcode=OK             opcode=QUERY                   |
+| aa=0 tr=0 rd=0 ra=0  quest=1  answer=0  auth=0  add=1         |
+| videosearch.ubuntu.com. A                                     |
+| . OPT UDPpl=4096 errcode=0 v=0 ...                            |
+|_______________________________________________________________|
+DNS_answer______________________________________________________.
+| id=53996  rcode=OK             opcode=QUERY                   |
+| aa=1 tr=0 rd=0 ra=0  quest=1  answer=1  auth=1  add=1         |
+| videosearch.ubuntu.com. A                                     |
+| videosearch.ubuntu.com. A 60 1.2.3.4                          |
+| ns.go-rts.com. NS 60 ns.go-rts.com.                           |
+| ns.go-rts.com. A 60 1.2.3.5                                   |
+|_______________________________________________________________|
+__END_OF_PROGRAM__

@@ -1,0 +1,38 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20141013061107
+; authauthority
+dnsphishing.com.	259178	IN NS	ns.dnsphishing.com.
+; authanswer
+x-3309570.dnsphishing.com. 259178 A	1.2.3.4
+;
+; Address database dump
+;
+;
+; Unassociated entries
+;
+;	192.168.56.101 [srtt 1440479] [flags 00002000] [ttl 1778]
+;
+; Bad cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20141013061107
+;
+; Address database dump
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+; Dump complete
